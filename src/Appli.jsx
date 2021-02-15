@@ -1,9 +1,5 @@
-import './Appli.scss';
+import "./Appli.scss";
 
 export default function Appli() {
-  return (
-    <div className="Appli">
-        Gabarit de base d'une Application React
-    </div>
-  );
+  return <div className="Appli">Bonjour</div>;
 }
