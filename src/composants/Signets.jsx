@@ -13,7 +13,6 @@ export default function Signets() {
           titre={signet.titre}
           couleur={signet.couleur}
           date={signet.date}
-          image={signet.image}
         />
       ))}
     </div>

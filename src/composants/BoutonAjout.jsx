@@ -1,8 +1,8 @@
-import { BiDotsVerticalRounded } from "react-icons/bi";
+import { BiMessageSquareAdd } from "react-icons/bi";
 export default function BoutonAjout() {
   return (
     <span>
-      <BiDotsVerticalRounded />
+      <BiMessageSquareAdd />
     </span>
   );
 }

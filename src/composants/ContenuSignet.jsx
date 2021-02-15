@@ -1,14 +1,17 @@
 import { BiMenu } from "react-icons/bi";
 import { BiDotsVerticalRounded } from "react-icons/bi";
 
-export default function ContenuSignet({ id, titre, date, image }) {
+export default function ContenuSignet({ id, couleur, titre, date }) {
   return (
-    <article>
+    <article style={{ backgroundColor: couleur }}>
       {/* BoutonMenu */}
       <BiMenu />
 
       {/* Image */}
-      <img src={image} alt="apercu de l'article" />
+      <img
+        src={"images-signets/signet00" + id + ".png"}
+        alt={"Image " + titre}
+      />
 
       <div>
         {/* Titre */}
